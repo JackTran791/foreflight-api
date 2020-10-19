@@ -1,0 +1,78 @@
+package com.foreflight.dto.api;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class RunWayDto {
+    private String ident;
+    private int length;
+    private int width;
+    private String surfaceType;
+    private String surfaceQuality;
+    private String edgeLightsIntensity;
+    private String name;
+    private int trueHeading;
+    private int magneticHeading;
+    private double latitudeBase;
+    private double longitudeBase;
+    private String approachSlopeSideBase;
+    private String approachSlopeIndicatorBase;
+    private String approachLightingSystemBase;
+    private Boolean rightTrafficBase;
+    private Boolean rightTrafficRecip;
+    private int recipTrueHeading;
+    private int recipMagneticHeading;
+    private String recipName;
+    private double latitudeRecip;
+    private double longitudeRecip;
+    private String approachSlopeSideRecip;
+    private String approachSlopeIndicatorRecip;
+    private String approachLightingSystemRecip;
+    private Boolean displacedThresholdBase;
+    private Boolean displacedThresholdRecip;
+    private double gradientBase;
+    private double gradientRecip;
+    private String displacedThresholdLengthBase;
+    private String displacedThresholdLengthRecip;
+    private String displacedThresholdLatitudeBase;
+    private String displacedThresholdLatitudeRecip;
+    private String displacedThresholdLongitudeBase;
+    private String displacedThresholdLongitudeRecip;
+    private double elevationRunwayEndBase;
+    private double elevationRunwayEndRecip;
+    private String elevationThresholdBase;
+    private String elevationThresholdRecip;
+    private double elevationTouchdownZoneBase;
+    private double elevationTouchdownZoneRecip;
+    private double glidePathAngleBase;
+    private double glidePathAngleRecip;
+    private double ldaFtDayBase;
+    private double ldaFtDayRecip;
+    private double ldaFtNightBase;
+    private double ldaFtNightRecip;
+    private double toraFtDayBase;
+    private double toraFtDayRecip;
+    private double toraFtNightBase;
+    private double toraFtNightRecip;
+    private double todaFtDayBase;
+    private double todaFtDayRecip;
+    private double todaFtNightBase;
+    private double todaFtNightRecip;
+    private double asdaFtDayBase;
+    private double asdaFtDayRecip;
+    private double asdaFtNightBase;
+    private double asdaFtNightRecip;
+    private double overrunFtBase;
+    private double overrunFtRecip;
+    private String markingsType;
+    private String markingsCondition;
+    private String attributes;
+    private Boolean edgeLightIntensityKnown;
+    private String edgeLightUserPresentable;
+    private Boolean approachSlopeIndicatorBaseAvailable;
+    private Boolean approachSlopeIndicatorRecipAvailable;
+    private Boolean approachLightingSystemBaseAvailable;
+    private Boolean approachLightingSystemRecipAvailable;
+}
